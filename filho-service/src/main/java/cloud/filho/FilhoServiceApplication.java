@@ -21,8 +21,8 @@ public class FilhoServiceApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		repository.save(new Filho(null, "João", 12, "Afeminado"));
 		repository.save(new Filho(null, "Matheus", 13, "Macho"));
-		repository.save(new Filho(null, "Hericles", 15, "mulher"));
-		repository.save(new Filho(null, "Maria", 15, "homi"));
-		repository.save(new Filho(null, "Pedrão", 20, "nao sabe ainda"));
+		repository.save(new Filho(null, "Hericles", 15, "Topzera"));
+		repository.save(new Filho(null, "Maria", 15, "Homi"));
+		repository.save(new Filho(null, "Pedrão", 20, "Nao sabe ainda"));
 	}
 }
